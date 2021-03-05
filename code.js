@@ -21,7 +21,7 @@
 //     }
 // };
 
-// // ZADANIE 7 Homework
+// // ZADANIE 7
 
 // const numbersOne = [[1, 2], [3, 4], [5, 6]];
 
@@ -70,7 +70,7 @@
 //     return arrayForPermutation;
 // };
 
-// ZADANIE 6 - DO ZROZUMIENIA!
+// ZADANIE 6
 
 // resolver_tower_of_hanoi = function (s, d, e, n) {
 
@@ -157,15 +157,7 @@
 // };
 
 //ZADANIE 8 ZAJĘCIA 2 - brak wycentrowania
-
-// let numberObtained = prompt('Podaj jakąś liczbę.');
-// let manyRows = ""
-// for (i = 1; i <= numberObtained; ++i){
-//     manyRows += '*';
-//     console.log(manyRows)
-// };
-
-// ROZWIĄZANIE DLA ZAD 8 
+ 
 // function displayPyramid(n) { 
 //     for (var i = 0; i < n; i++) { 
 //       var str = ''; 
@@ -178,35 +170,3 @@
 //       console.log(str); 
 //     } 
 //   } 
-
-// Zadania z książki
-
-// zad ze szukania wspólnych tablic
-
-// const searchCommonElements = function (varr1, varr2) {
-// if (varr1.length < varr2.length) {
-// const trueResult = varr1.filter(value => varr2.includes(value));
-// console.log(trueResult.sort((a, b) => a - b));
-// } else {
-//     const trueResult = varr2.filter(value => varr1.includes(value));
-//     console.log(trueResult.sort((a,b) => a - b));
-// }
-// }
-
-// zad ze szukania różniących się elementów tablic
-// const searchDifferentElements = function (varr1, varr2) {
-//     let result = [];
-//     for (i = 0; i < varr1.length; i++) {
-//         if (varr2.indexOf(varr1[i]) === -1) {
-//             result.push(varr1[i]);
-//             console.log(result)
-//         };
-//     };
-//     for (i = 0; i < varr2.length; i++) {
-//         if (varr1.indexOf(varr2[i]) === -1) {
-//             result.push(varr2[i]);
-//             console.log(result);
-//         };
-//     };
-//     return result.sort((a,b) => a - b);;
-// };
